@@ -1,0 +1,12 @@
+# Debian / Ubuntu 
+
+- name: dependencies | install debian dependencies
+  apt: >
+    pkg={{ item }} 
+    state=latest
+  with_items:
+    - gcc
+    - autoconf
+    - php5-dev
+    - php5-mysql
+  when: ansible_os_family == 'Debian'

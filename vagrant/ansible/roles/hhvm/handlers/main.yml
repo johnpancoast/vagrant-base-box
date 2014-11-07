@@ -1,0 +1,19 @@
+- name: hhvm-restart
+  service: >
+    name={{ service_hhvm }}
+    state=restarted
+
+- name: hhvm-start
+  service: >
+    name={{ service_hhvm }}
+    state=started
+
+- name: hhvm-stop
+  service: >
+    name={{ service_hhvm }}
+    state=restarted
+
+- name: apache-restart
+  service: >
+    name={{ service_apache }}
+    state=restarted
