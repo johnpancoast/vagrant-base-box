@@ -9,5 +9,6 @@ Install
 
 * `mv vagrant/data/config/common.yml-dist vagrant/data/config/common.yml`.
 * Edit `vagrant/data/config/common.yml` to your liking.
+* Add your dotfiles to `vagrant/data/dot/` if needed.
 * `cd vagrant/`
 * `vagrant up`
