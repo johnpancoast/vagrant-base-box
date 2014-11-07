@@ -7,7 +7,7 @@ Install
 -------
 *This package uses vagrant. Not sure what that is? Go [here](https://vagrantup.com/).*
 
-* Move `vagrant/data/config/common.yml-dist` to `vagrant/data/config/common.yml`.
+* `mv vagrant/data/config/common.yml-dist vagrant/data/config/common.yml`.
 * Edit `vagrant/data/config/common.yml` to your liking.
 * `cd vagrant/`
 * `vagrant up`
