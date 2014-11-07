@@ -213,7 +213,7 @@ mysql:
 
 postgresql:
   install: 0
-  root_password: 'root'
+  root_password: 'Fr1endsM@n'
   user: postgres
   group: postgres
   databases:
@@ -226,8 +226,8 @@ postgresql:
       sql_file: ''
 
 mongodb:
-  install: 0
-  root_password: 'root'
+  install: 1
+  root_password: 'Fr1endsM@n'
 
 redis:
   install: 0
@@ -266,7 +266,7 @@ rabbitmq:
   install: 0
 
 node:
-  install: 0
+  install: 1
   npm:
     - grunt
     - grunt-cli
@@ -279,7 +279,7 @@ ruby:
     - compass
 
 python:
-  install: 0
+  install: 1
   #setuptools:
     #version: 123
   pip:
@@ -293,8 +293,8 @@ python:
 newrelic:
   install: 0
   license: ''
-  php: 1
-  node: 1
+  php: 0
+  node: 0
 
 ngrok:
   install: 0
