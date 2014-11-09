@@ -95,7 +95,7 @@ server:
     #    entry: 'host *\n\tIdentityFile ~/.ssh/github_id_rsa'
   dotfiles:
     install: 1
-    repo: 'git@github.com:shideon/dotfiles.git'
+    #repo: 'git@github.com:shideon/dotfiles.git'
     files: [ ]
     bash_aliases: null
     #files:
